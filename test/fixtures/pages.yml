@@ -1,0 +1,57 @@
+# Read wabout fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+#
+home:
+  id: 1
+  title: Home
+  url_title: home
+  parent_page_id: nil 
+  lft: 3
+  rgt: 4
+
+products:
+  id: 2
+  title: Products
+  url_title: products
+  parent_page_id: nil
+  lft: 5
+  rgt: 14
+
+services:
+  id: 3
+  title: Services
+  url_title: services
+  parent_page_id: nil
+  lft: 1
+  rgt: 2
+
+product_alpha:
+  id: 4
+  title: Product Alpha
+  url_title: alpha
+  parent_page_id: 2
+  lft: 10
+  rgt: 13
+
+further_information:
+  id: 5
+  title: Further information
+  url_title: further_info
+  parent_page_id: 4
+  lft: 11
+  rgt: 12
+
+product_beta:
+  id: 6
+  title: Product Beta
+  url_title: beta
+  parent_page_id: 2
+  lft: 6
+  rgt: 9
+
+further_information_beta:
+  id: 7
+  title: Further information
+  url_title: further_info
+  parent_page_id: 6
+  lft: 7
+  rgt: 8
